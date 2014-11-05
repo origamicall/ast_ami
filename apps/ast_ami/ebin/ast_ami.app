@@ -1,0 +1,12 @@
+{application,ast_ami,
+             [{description,"AstAMI"},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib,inets,ssl,lager,compiler,
+                             syntax_tools]},
+              {mod,{ast_ami_app,[]}},
+              {env,[]},
+              {modules,[ast_ami_app,ast_ami_client,ast_ami_ctl,ast_ami_drv,
+                        ast_ami_hooks,ast_ami_pdu,ast_ami_sup,ast_logger_h,
+                        ast_loglevel,ast_man_events,erlast_deps,functions,
+                        ram_file_io_server,server_nodes_sup]}]}.

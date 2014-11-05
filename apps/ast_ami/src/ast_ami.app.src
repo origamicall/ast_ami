@@ -1,0 +1,17 @@
+{application, ast_ami,
+ [
+  {description, "AstAMI"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  ssl,
+		  lager,
+		  compiler,
+		  syntax_tools
+                 ]},
+  {mod, { ast_ami_app, []}},
+  {env, []}
+ ]}.
