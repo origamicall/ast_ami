@@ -8,12 +8,6 @@
 ## (Disabled by default..use with caution!)
 ##-heart
 
-
-##CONFIG FILE
--config etc/app.config
-
-
-
 ## Enable kernel poll and a few async threads
 ##+K true
 ##+A 5
