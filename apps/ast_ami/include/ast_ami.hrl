@@ -14,16 +14,16 @@
     io:format(Format, Args)).
 
 -define(DEBUG(Format, Args),
-   logger:debug_msg(?MODULE,?LINE,Format, Args)).
+   lager:debug(Format, Args)).
 
 -define(INFO_MSG(Format, Args),
-   logger:info_msg(?MODULE,?LINE,Format, Args)).
+   lager:info(Format, Args)).
 
 -define(WARNING_MSG(Format, Args),
-   logger:warning_msg(?MODULE,?LINE,Format, Args)).
+   lager:warning(Format, Args)).
 
 -define(ERROR_MSG(Format, Args),
-   logger:error_msg(?MODULE,?LINE,Format, Args)).
+   lager:error(Format, Args)).
 
 -define(CRITICAL_MSG(Format, Args),
-   logger:critical_msg(?MODULE,?LINE,Format, Args)).
+   lager:critical(Format, Args)).
